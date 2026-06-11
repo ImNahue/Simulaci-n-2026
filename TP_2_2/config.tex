@@ -1,0 +1,91 @@
+% =========================================
+% PAQUETES ESENCIALES
+% =========================================
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+
+\usepackage{geometry}
+
+\usepackage{graphicx}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{float}
+
+\usepackage{booktabs}
+
+\usepackage{caption}
+
+\usepackage{hyperref}
+
+\usepackage{listings}
+
+\usepackage{xcolor}
+
+% =========================================
+% CONFIGURACIÓN DE PÁGINA
+% =========================================
+
+\geometry{
+    left=2.5cm,
+    right=2.5cm,
+    top=2.5cm,
+    bottom=2.5cm,
+    headheight=14pt
+}
+
+% =========================================
+% CONFIGURACIÓN DE CÓDIGO PYTHON
+% =========================================
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+% =========================================
+% CONFIGURACIÓN DE FIGURAS
+% =========================================
+
+\captionsetup[
+figure
+]{
+labelfont=bf,
+justification=raggedright,
+singlelinecheck=false
+}
+
+% =========================================
+% CONFIGURACIÓN DE HIPERVÍNCULOS
+% =========================================
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
